@@ -1,0 +1,13 @@
+NOTES JUST TO CLARIFY THINGS FOR MYSELF
+
+management.ex is the context which contains functions for the "model" (project.ex) to interact(CRUD) with the DB
+can add many other models under the management.ex context and there will be additional funcs for that model also
+
+data flow for out API
+
+router.ex endpoint 
+--> model specific controller funcs 
+--> management.ex funcs (CONTEXT of model) 
+-> make CRUD calls TO DB USING REPO
+
+
