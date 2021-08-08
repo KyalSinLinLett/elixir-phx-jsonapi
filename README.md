@@ -1,4 +1,6 @@
 # PmApi
+- A simple boilerplate for creating JSON API in Elixir with Phoenix. 
+- use for reference
 
 To start your Phoenix server:
 
